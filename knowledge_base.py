@@ -12,7 +12,7 @@ FACT_LIST= [
     "research",
     "critical_thinking",
     "politics",
-    "international_relations",
+    "International_relations",
     "public_speaking",
     "ai"
 ]
@@ -28,7 +28,7 @@ RULES =[
     },
     {
         "conditions":["AI_Candidate"],
-        "conclusions":"Artifical Intelligence Engineer"
+        "conclusion":"Artifical Intelligence Engineer"
     },
     {
         "conditions":["programming","mathematics"],
@@ -47,35 +47,35 @@ RULES =[
     },
     {
         "conditions":["life_science_skills"],
-        "conclusions":"medical_candidate"
+        "conclusion":"medical_candidate"
 
     },
     {
         "conditions":["medical_candidate"],
-        "conclusions":"Doctor"
+        "conclusion":"Doctor"
     },
     # Psychology path
     {
         "conditions":["psychology","critical_thinking"],
-        "conclusions":"psychology_skills"
+        "conclusion":"psychology_skills"
     },
     {
        "conditions":["psychology_skills"],
-       "conclusions":"counselling_candidate"
+       "conclusion":"counselling_candidate"
     },
     {
         "conditions":["counselling_candidate"],
-        "conclusions":"Pyschologist"
+        "conclusion":"Psychologist"
     },
     # Film
     {
         "conditions":["film","creativity"],
-        "conclusions":"film_candidate"
+        "conclusion":"film_candidate"
 
     },
     {
         "conditions":["film_candidate"],
-        "conclusions":"Film Director"
+        "conclusion":"Film Director"
     },
     
     # International Relations
@@ -85,4 +85,3 @@ RULES =[
     }
 ]
    
-

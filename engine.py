@@ -17,7 +17,7 @@ def forward_chain(facts,rules):
                         "rule":rule["conditions"],
                         "result":result
                     })
-                    print(f"Rule Fired -> {["conditions"]} =>{result}")
+                    print(f"Rule Fired -> {rule['conditions']} => {result}")
                     new_fact_added= True
 
     return facts, explanation
